@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0075BC1F69537E3BA20ABA83 /* libPods-ZMToolbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 078D42655C898FF3132BEC1B /* libPods-ZMToolbox.a */; };
+		54D79F02216DDF3E00E66608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D79F01216DDF3E00E66608 /* AppDelegate.m */; };
+		54D79F05216DDF3E00E66608 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D79F04216DDF3E00E66608 /* ViewController.m */; };
+		54D79F07216DDF3E00E66608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54D79F06216DDF3E00E66608 /* Assets.xcassets */; };
+		54D79F0A216DDF3E00E66608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D79F08216DDF3E00E66608 /* Main.storyboard */; };
+		54D79F0D216DDF3E00E66608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D79F0C216DDF3E00E66608 /* main.m */; };
+		54D79F16216DE55F00E66608 /* NSString+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D79F15216DE55F00E66608 /* NSString+Tool.m */; };
+		54D79F1D216DF77F00E66608 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 54D79F18216DF77F00E66608 /* index.html */; };
+		54D79F1E216DF77F00E66608 /* jquery.jsonview.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 54D79F19216DF77F00E66608 /* jquery.jsonview.min.css */; };
+		54D79F1F216DF77F00E66608 /* jquery.jsonview.js in Resources */ = {isa = PBXBuildFile; fileRef = 54D79F1A216DF77F00E66608 /* jquery.jsonview.js */; };
+		54D79F20216DF77F00E66608 /* jquery.jsonview.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 54D79F1B216DF77F00E66608 /* jquery.jsonview.min.js */; };
+		54D79F21216DF77F00E66608 /* jquery.jsonview.css in Resources */ = {isa = PBXBuildFile; fileRef = 54D79F1C216DF77F00E66608 /* jquery.jsonview.css */; };
+		54E6647A21DF529B00F1C989 /* document.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E6647821DF529B00F1C989 /* document.png */; };
+		54E6647B21DF529B00F1C989 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E6647921DF529B00F1C989 /* checkmark.png */; };
+		54E6647F21DF530500F1C989 /* ZMSSLToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E6647E21DF530500F1C989 /* ZMSSLToolsViewController.m */; };
+		54E6648221DF531600F1C989 /* ZMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E6648121DF531600F1C989 /* ZMBaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		078D42655C898FF3132BEC1B /* libPods-ZMToolbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZMToolbox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D86CD2B02AF4FB28F90271B /* Pods-ZMToolbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMToolbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZMToolbox/Pods-ZMToolbox.debug.xcconfig"; sourceTree = "<group>"; };
+		54D79EFD216DDF3E00E66608 /* ZMToolbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMToolbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D79F00216DDF3E00E66608 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54D79F01216DDF3E00E66608 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54D79F03216DDF3E00E66608 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54D79F04216DDF3E00E66608 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54D79F06216DDF3E00E66608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54D79F09216DDF3E00E66608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54D79F0B216DDF3E00E66608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D79F0C216DDF3E00E66608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54D79F0E216DDF3E00E66608 /* ZMToolbox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZMToolbox.entitlements; sourceTree = "<group>"; };
+		54D79F14216DE55F00E66608 /* NSString+Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Tool.h"; sourceTree = "<group>"; };
+		54D79F15216DE55F00E66608 /* NSString+Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Tool.m"; sourceTree = "<group>"; };
+		54D79F18216DF77F00E66608 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		54D79F19216DF77F00E66608 /* jquery.jsonview.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jquery.jsonview.min.css; sourceTree = "<group>"; };
+		54D79F1A216DF77F00E66608 /* jquery.jsonview.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.jsonview.js; sourceTree = "<group>"; };
+		54D79F1B216DF77F00E66608 /* jquery.jsonview.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.jsonview.min.js; sourceTree = "<group>"; };
+		54D79F1C216DF77F00E66608 /* jquery.jsonview.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jquery.jsonview.css; sourceTree = "<group>"; };
+		54E6647821DF529B00F1C989 /* document.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = document.png; sourceTree = "<group>"; };
+		54E6647921DF529B00F1C989 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		54E6647C21DF52C300F1C989 /* ZMShellCmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMShellCmd.h; sourceTree = "<group>"; };
+		54E6647D21DF530500F1C989 /* ZMSSLToolsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMSSLToolsViewController.h; sourceTree = "<group>"; };
+		54E6647E21DF530500F1C989 /* ZMSSLToolsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMSSLToolsViewController.m; sourceTree = "<group>"; };
+		54E6648021DF531600F1C989 /* ZMBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMBaseViewController.h; sourceTree = "<group>"; };
+		54E6648121DF531600F1C989 /* ZMBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMBaseViewController.m; sourceTree = "<group>"; };
+		8A42C4FB628166939AEBF0A0 /* Pods-ZMToolbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMToolbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZMToolbox/Pods-ZMToolbox.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54D79EFA216DDF3E00E66608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0075BC1F69537E3BA20ABA83 /* libPods-ZMToolbox.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		114C925A6E7A83EBC92C5090 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				078D42655C898FF3132BEC1B /* libPods-ZMToolbox.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54D79EF4216DDF3E00E66608 = {
+			isa = PBXGroup;
+			children = (
+				54D79EFF216DDF3E00E66608 /* ZMToolbox */,
+				54D79EFE216DDF3E00E66608 /* Products */,
+				82960645996738291BA69085 /* Pods */,
+				114C925A6E7A83EBC92C5090 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54D79EFE216DDF3E00E66608 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54D79EFD216DDF3E00E66608 /* ZMToolbox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54D79EFF216DDF3E00E66608 /* ZMToolbox */ = {
+			isa = PBXGroup;
+			children = (
+				54E6647721DF529B00F1C989 /* Images */,
+				54D79F17216DF77F00E66608 /* jsonView */,
+				54D79F00216DDF3E00E66608 /* AppDelegate.h */,
+				54D79F01216DDF3E00E66608 /* AppDelegate.m */,
+				54D79F03216DDF3E00E66608 /* ViewController.h */,
+				54D79F04216DDF3E00E66608 /* ViewController.m */,
+				54D79F14216DE55F00E66608 /* NSString+Tool.h */,
+				54D79F15216DE55F00E66608 /* NSString+Tool.m */,
+				54E6647D21DF530500F1C989 /* ZMSSLToolsViewController.h */,
+				54E6647E21DF530500F1C989 /* ZMSSLToolsViewController.m */,
+				54E6648021DF531600F1C989 /* ZMBaseViewController.h */,
+				54E6648121DF531600F1C989 /* ZMBaseViewController.m */,
+				54E6647C21DF52C300F1C989 /* ZMShellCmd.h */,
+				54D79F06216DDF3E00E66608 /* Assets.xcassets */,
+				54D79F08216DDF3E00E66608 /* Main.storyboard */,
+				54D79F0B216DDF3E00E66608 /* Info.plist */,
+				54D79F0C216DDF3E00E66608 /* main.m */,
+				54D79F0E216DDF3E00E66608 /* ZMToolbox.entitlements */,
+			);
+			path = ZMToolbox;
+			sourceTree = "<group>";
+		};
+		54D79F17216DF77F00E66608 /* jsonView */ = {
+			isa = PBXGroup;
+			children = (
+				54D79F18216DF77F00E66608 /* index.html */,
+				54D79F19216DF77F00E66608 /* jquery.jsonview.min.css */,
+				54D79F1A216DF77F00E66608 /* jquery.jsonview.js */,
+				54D79F1B216DF77F00E66608 /* jquery.jsonview.min.js */,
+				54D79F1C216DF77F00E66608 /* jquery.jsonview.css */,
+			);
+			path = jsonView;
+			sourceTree = "<group>";
+		};
+		54E6647721DF529B00F1C989 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				54E6647821DF529B00F1C989 /* document.png */,
+				54E6647921DF529B00F1C989 /* checkmark.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		82960645996738291BA69085 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D86CD2B02AF4FB28F90271B /* Pods-ZMToolbox.debug.xcconfig */,
+				8A42C4FB628166939AEBF0A0 /* Pods-ZMToolbox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54D79EFC216DDF3E00E66608 /* ZMToolbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54D79F11216DDF3E00E66608 /* Build configuration list for PBXNativeTarget "ZMToolbox" */;
+			buildPhases = (
+				42306CE8B576BFD54F114D17 /* [CP] Check Pods Manifest.lock */,
+				54D79EF9216DDF3E00E66608 /* Sources */,
+				54D79EFA216DDF3E00E66608 /* Frameworks */,
+				54D79EFB216DDF3E00E66608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZMToolbox;
+			productName = ZMToolbox;
+			productReference = 54D79EFD216DDF3E00E66608 /* ZMToolbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54D79EF5216DDF3E00E66608 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Yuri Boyka";
+				TargetAttributes = {
+					54D79EFC216DDF3E00E66608 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 54D79EF8216DDF3E00E66608 /* Build configuration list for PBXProject "ZMToolbox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54D79EF4216DDF3E00E66608;
+			productRefGroup = 54D79EFE216DDF3E00E66608 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54D79EFC216DDF3E00E66608 /* ZMToolbox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54D79EFB216DDF3E00E66608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D79F20216DF77F00E66608 /* jquery.jsonview.min.js in Resources */,
+				54D79F1D216DF77F00E66608 /* index.html in Resources */,
+				54D79F07216DDF3E00E66608 /* Assets.xcassets in Resources */,
+				54D79F21216DF77F00E66608 /* jquery.jsonview.css in Resources */,
+				54D79F1F216DF77F00E66608 /* jquery.jsonview.js in Resources */,
+				54D79F0A216DDF3E00E66608 /* Main.storyboard in Resources */,
+				54E6647A21DF529B00F1C989 /* document.png in Resources */,
+				54D79F1E216DF77F00E66608 /* jquery.jsonview.min.css in Resources */,
+				54E6647B21DF529B00F1C989 /* checkmark.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42306CE8B576BFD54F114D17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZMToolbox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54D79EF9216DDF3E00E66608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D79F05216DDF3E00E66608 /* ViewController.m in Sources */,
+				54D79F0D216DDF3E00E66608 /* main.m in Sources */,
+				54E6647F21DF530500F1C989 /* ZMSSLToolsViewController.m in Sources */,
+				54D79F02216DDF3E00E66608 /* AppDelegate.m in Sources */,
+				54E6648221DF531600F1C989 /* ZMBaseViewController.m in Sources */,
+				54D79F16216DE55F00E66608 /* NSString+Tool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54D79F08216DDF3E00E66608 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54D79F09216DDF3E00E66608 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54D79F0F216DDF3E00E66608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		54D79F10216DDF3E00E66608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		54D79F12216DDF3E00E66608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D86CD2B02AF4FB28F90271B /* Pods-ZMToolbox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_WARNINGS = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = ZMToolbox/ZMToolbox.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LQW337MH2W;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				INFOPLIST_FILE = ZMToolbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.godlike.ZMToolbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54D79F13216DDF3E00E66608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A42C4FB628166939AEBF0A0 /* Pods-ZMToolbox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_WARNINGS = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = ZMToolbox/ZMToolbox.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LQW337MH2W;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				INFOPLIST_FILE = ZMToolbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.godlike.ZMToolbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54D79EF8216DDF3E00E66608 /* Build configuration list for PBXProject "ZMToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D79F0F216DDF3E00E66608 /* Debug */,
+				54D79F10216DDF3E00E66608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54D79F11216DDF3E00E66608 /* Build configuration list for PBXNativeTarget "ZMToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D79F12216DDF3E00E66608 /* Debug */,
+				54D79F13216DDF3E00E66608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54D79EF5216DDF3E00E66608 /* Project object */;
+}
